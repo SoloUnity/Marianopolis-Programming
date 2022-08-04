@@ -1,0 +1,9 @@
+integer1 = int(input("Integer 1:"))
+integer2 = int(input("Integer 2:"))
+integerMem1 = 0
+inteherMem2 = 0
+while integer2 != 0:
+  integerMem1 = integer2
+  integerMem2 = integer1%integer2
+  integer1 = integerMem1
+  integer2 = integerMem2
